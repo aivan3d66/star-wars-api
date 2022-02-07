@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add redux dependencies">
-      <change afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add HeaderNav and HomeMenu import">
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
-      <workItem from="1644260217701" duration="1943000" />
+      <workItem from="1644260217701" duration="6953000" />
     </task>
     <task id="LOCAL-00001" summary="add default project files">
       <created>1644260325659</created>
@@ -148,7 +153,49 @@
       <option name="project" value="LOCAL" />
       <updated>1644261950847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add thunk dependencies">
+      <created>1644262240565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262240565</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add app store">
+      <created>1644262248281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262248281</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add appReducer">
+      <created>1644262256899</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262256899</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add getHomePage api">
+      <created>1644262266270</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262266270</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add HeaderNav component">
+      <created>1644262924231</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262924231</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add HeaderNav and HomeMenu import">
+      <created>1644262941347</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644262941347</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +224,12 @@
     <MESSAGE value="add axios dependencies" />
     <MESSAGE value="add base url and axios instance" />
     <MESSAGE value="add redux dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux dependencies" />
+    <MESSAGE value="add thunk dependencies" />
+    <MESSAGE value="add app store" />
+    <MESSAGE value="add appReducer" />
+    <MESSAGE value="add getHomePage api" />
+    <MESSAGE value="add HeaderNav component" />
+    <MESSAGE value="add HeaderNav and HomeMenu import" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HeaderNav and HomeMenu import" />
   </component>
 </project>
