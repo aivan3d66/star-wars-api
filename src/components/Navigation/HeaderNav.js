@@ -3,7 +3,8 @@ import React from "react";
 
 export const HeaderNav = () => {
   return (
-    <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+    <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
+      <Menu.Item key="0">Home</Menu.Item>
       <Menu.Item key="1">People</Menu.Item>
       <Menu.Item key="2">Planets</Menu.Item>
       <Menu.Item key="3">Films</Menu.Item>
