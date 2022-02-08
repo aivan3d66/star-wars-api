@@ -1,7 +1,36 @@
 import {Menu} from "antd";
 import React from "react";
+import {useDispatch} from "react-redux";
+import {
+  getFilmsPageContent,
+  getPeoplePageContent,
+  getPlanetsPageContent,
+  getSpeciesPageContent, getStarshipsPageContent, getVehiclesPageContent
+} from "../../redux/app-reducer";
+import {NavLink} from "react-router-dom";
 
 export const HeaderNav = () => {
+  const dispatch = useDispatch();
+
+  const onPeopleItemHandler = () => {
+    return dispatch(getPeoplePageContent())
+  }
+  const onPlanetItemHandler = () => {
+    return dispatch(getPlanetsPageContent())
+  }
+  const onFilmsItemHandler = () => {
+    return dispatch(getFilmsPageContent())
+  }
+  const onSpeciesItemHandler = () => {
+    return dispatch(getSpeciesPageContent())
+  }
+  const onVehiclesItemHandler = () => {
+    return dispatch(getVehiclesPageContent())
+  }
+  const onStarshipsItemHandler = () => {
+    return dispatch(getStarshipsPageContent())
+  }
+
   return (
     <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
       <Menu.Item key="0">
