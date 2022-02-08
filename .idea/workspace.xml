@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add react-router-dom dependencies">
-      <change afterPath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd App padding">
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/Preloader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/Spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/SpinnerPreloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/commons/Preloader" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,11 +61,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\rjs\sw-api\star-wars-api\src\components\commons\Preloader" />
+      <recent name="E:\rjs\sw-api\star-wars-api\src\components\commons" />
       <recent name="E:\rjs\sw-api\star-wars-api\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="Pagination.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Pagination/Pagination.js" working-dir="$PROJECT_DIR$/src/components/Pagination">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -83,6 +83,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Pagination.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +99,7 @@
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
-      <workItem from="1644324081315" duration="4088000" />
+      <workItem from="1644324081315" duration="9647000" />
     </task>
     <task id="LOCAL-00001" summary="add default project files">
       <created>1644260325659</created>
@@ -306,7 +311,126 @@
       <option name="project" value="LOCAL" />
       <updated>1644325741161</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add FilmsPage directory">
+      <created>1644328261553</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328261553</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add PeoplePage directory">
+      <created>1644328271223</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328271223</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add PlanetsPage directory">
+      <created>1644328277567</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328277567</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add SpeciesPage directory">
+      <created>1644328283864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328283864</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add StarshipsPage directory">
+      <created>1644328290138</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328290138</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add VehiclesPage directory">
+      <created>1644328295905</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328295905</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add all routes and import of components">
+      <created>1644328422898</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328422898</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add all action types">
+      <created>1644328447933</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328447933</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add new initial state values">
+      <created>1644328464770</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328464770</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add new actions to appReducer">
+      <created>1644328477806</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328477806</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add new action creators">
+      <created>1644328493917</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328493917</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add new Thunks">
+      <created>1644328519265</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328519265</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add NavLinks and handlers">
+      <created>1644328547847</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328547847</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add NavLinks and handlers">
+      <created>1644328562458</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328562458</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add HashRouter component">
+      <created>1644328572969</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328572969</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add upd HomeMenu">
+      <created>1644328594591</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328594591</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add upd App padding">
+      <created>1644340397429</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1644340397429</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,22 +449,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add api file" />
-    <MESSAGE value="add new App component" />
-    <MESSAGE value="add axios dependencies" />
-    <MESSAGE value="add base url and axios instance" />
-    <MESSAGE value="add redux dependencies" />
-    <MESSAGE value="add thunk dependencies" />
-    <MESSAGE value="add app store" />
-    <MESSAGE value="add appReducer" />
-    <MESSAGE value="add getHomePage api" />
-    <MESSAGE value="add HeaderNav component" />
-    <MESSAGE value="add HeaderNav and HomeMenu import" />
-    <MESSAGE value="add Hall api's" />
-    <MESSAGE value="add MAIN_PAGE action type, getMainPage AC, getMainContent thunk and logic to appReducer" />
-    <MESSAGE value="add Home item" />
-    <MESSAGE value="add Provider to index" />
-    <MESSAGE value="add Menu component" />
     <MESSAGE value="add uuid dependencies" />
     <MESSAGE value="add upd of appPage name" />
     <MESSAGE value="add selectAllState func" />
@@ -350,6 +458,22 @@
     <MESSAGE value="delete SPB" />
     <MESSAGE value="add Home menu" />
     <MESSAGE value="add react-router-dom dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react-router-dom dependencies" />
+    <MESSAGE value="add FilmsPage directory" />
+    <MESSAGE value="add PeoplePage directory" />
+    <MESSAGE value="add PlanetsPage directory" />
+    <MESSAGE value="add SpeciesPage directory" />
+    <MESSAGE value="add StarshipsPage directory" />
+    <MESSAGE value="add VehiclesPage directory" />
+    <MESSAGE value="add all routes and import of components" />
+    <MESSAGE value="add all action types" />
+    <MESSAGE value="add new initial state values" />
+    <MESSAGE value="add new actions to appReducer" />
+    <MESSAGE value="add new action creators" />
+    <MESSAGE value="add new Thunks" />
+    <MESSAGE value="add NavLinks and handlers" />
+    <MESSAGE value="add HashRouter component" />
+    <MESSAGE value="add upd HomeMenu" />
+    <MESSAGE value="add upd App padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upd App padding" />
   </component>
 </project>
