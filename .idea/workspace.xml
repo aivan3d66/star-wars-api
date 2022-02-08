@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add selectAllState func">
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SuperButton/SuperButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SuperButton/SuperButton.module.css" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add global App styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +83,7 @@
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
-      <workItem from="1644324081315" duration="1263000" />
+      <workItem from="1644324081315" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="add default project files">
       <created>1644260325659</created>
@@ -257,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644267386945</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add SuperButton component">
+      <created>1644325396498</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325396498</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add Menu.module.css styles">
+      <created>1644325414371</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325414371</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add global App styles">
+      <created>1644325426269</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325426269</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,8 +293,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add default project files" />
-    <MESSAGE value="delete unnecessary files" />
     <MESSAGE value="delete reportWebVitals" />
     <MESSAGE value="add reset App component" />
     <MESSAGE value="add AntD dependencies" />
@@ -300,6 +315,9 @@
     <MESSAGE value="add uuid dependencies" />
     <MESSAGE value="add upd of appPage name" />
     <MESSAGE value="add selectAllState func" />
-    <option name="LAST_COMMIT_MESSAGE" value="add selectAllState func" />
+    <MESSAGE value="add SuperButton component" />
+    <MESSAGE value="add Menu.module.css styles" />
+    <MESSAGE value="add global App styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add global App styles" />
   </component>
 </project>
