@@ -9,7 +9,13 @@ const STARSHIPS_PAGE = 'STARSHIPS_PAGE';
 const PLANETS_PAGE = 'PLANETS_PAGE';
 
 const initialState = {
-  contentMenu: ''
+  contentMenu: '',
+  people: {},
+  films: {},
+  planets: {},
+  species: {},
+  vehicles: {},
+  starships: {},
 }
 
 export const appReducer = (state = initialState, action) => {
