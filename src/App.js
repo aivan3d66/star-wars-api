@@ -28,7 +28,7 @@ function App() {
         <Breadcrumb style={{margin: '16px 0'}}>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
         </Breadcrumb>
-        <div className="site-layout-background" style={{padding: 14, minHeight: 380}}>
+        <div className="site-layout-background" style={{padding: 0, minHeight: 380}}>
           <Routes>
             <Route path="/" element={<HomeMenu/>}/>
             <Route path="/people" element={<PeoplePage/>}/>
