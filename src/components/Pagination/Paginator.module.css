@@ -1,0 +1,41 @@
+.paginationItem__selected {
+  color: gold;
+  font-weight: bold;
+}
+
+.usersList__pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 4px;
+  margin: auto auto 0 auto;
+}
+
+.usersList__pagination span {
+  min-width: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.usersList__pagination span:hover,
+.usersList__pagination span:focus {
+  color: gold;
+}
+
+.usersList__paginationControl {
+  min-width: 40px;
+  padding: 0 6px;
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 10px;
+  color: black;
+  border: none;
+
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.usersList__paginationControl:hover {
+  color: gold;
+}
