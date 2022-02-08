@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add PeoplePage">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add h2 and btn elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +63,15 @@
       <recent name="E:\rjs\sw-api\star-wars-api\src\components\commons" />
       <recent name="E:\rjs\sw-api\star-wars-api\src\components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\rjs\sw-api\star-wars-api\src\components\commons" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="Pagination.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Pagination/Pagination.js" working-dir="$PROJECT_DIR$/src/components/Pagination">
+    <configuration name="Pagination.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Pagination/Pagination.js" working-dir="$PROJECT_DIR$/src/components/commons/Pagination">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -97,14 +100,7 @@
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
-      <workItem from="1644324081315" duration="10180000" />
-    </task>
-    <task id="LOCAL-00004" summary="add reset App component">
-      <created>1644260523061</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1644260523061</updated>
+      <workItem from="1644324081315" duration="12312000" />
     </task>
     <task id="LOCAL-00005" summary="add AntD dependencies">
       <created>1644261107107</created>
@@ -442,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644342130738</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add h2 and btn elements">
+      <created>1644342245701</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1644342245701</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add global App styles" />
     <MESSAGE value="delete SPB" />
     <MESSAGE value="add Home menu" />
     <MESSAGE value="add react-router-dom dependencies" />
@@ -486,6 +488,7 @@
     <MESSAGE value="add Paginator style" />
     <MESSAGE value="add Preloader directory" />
     <MESSAGE value="add PeoplePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PeoplePage" />
+    <MESSAGE value="add h2 and btn elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add h2 and btn elements" />
   </component>
 </project>
