@@ -15,7 +15,7 @@ export const HomeMenu = () => {
     return (
       <div key={v1()} className={s.tableList__item}>
         <span className={s.tableList__itemNumber}>{i + 1}</span>
-        <span>{m[0]}:</span>
+        <span className={s.tableList__itemName}>{m[0]}:</span>
         <span className={s.tableList__itemUrl}>{m[1]}</span>
         <Button type="primary">Open page</Button>
       </div>

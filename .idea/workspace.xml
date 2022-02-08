@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add global App styles">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add react-router-dom dependencies">
+      <change afterPath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,7 +94,7 @@
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
-      <workItem from="1644324081315" duration="1474000" />
+      <workItem from="1644324081315" duration="4088000" />
     </task>
     <task id="LOCAL-00001" summary="add default project files">
       <created>1644260325659</created>
@@ -274,7 +285,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644325426269</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="delete SPB">
+      <created>1644325644176</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325644176</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add Home menu">
+      <created>1644325660381</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325660381</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add react-router-dom dependencies">
+      <created>1644325741161</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325741161</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,9 +325,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete reportWebVitals" />
-    <MESSAGE value="add reset App component" />
-    <MESSAGE value="add AntD dependencies" />
     <MESSAGE value="add api file" />
     <MESSAGE value="add new App component" />
     <MESSAGE value="add axios dependencies" />
@@ -318,6 +347,9 @@
     <MESSAGE value="add SuperButton component" />
     <MESSAGE value="add Menu.module.css styles" />
     <MESSAGE value="add global App styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add global App styles" />
+    <MESSAGE value="delete SPB" />
+    <MESSAGE value="add Home menu" />
+    <MESSAGE value="add react-router-dom dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react-router-dom dependencies" />
   </component>
 </project>

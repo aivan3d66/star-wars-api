@@ -16,6 +16,10 @@
   width: 20px;
 }
 
+.tableList__itemName {
+  margin: 0 6px 0 0;
+}
+
 .tableList__itemUrl {
   margin: 0 auto 0 0;
 }
