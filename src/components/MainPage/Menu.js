@@ -1,11 +1,17 @@
 import {useDispatch, useSelector} from "react-redux";
+import {Navigate} from 'react-router';
 import {getMainContent} from "../../redux/app-reducer";
 import {v1} from "uuid";
 import {useEffect} from "react";
 import s from './Menu.module.css';
 import {Button} from "antd";
+import {NavLink} from "react-router-dom";
 
 export const HomeMenu = () => {
+  useEffect(() => {
+    dispatch(getMainContent())
+  }, [])
+
   const dispatch = useDispatch();
   const menu = useSelector(state => state.appPage.contentMenu);
 
@@ -17,14 +23,12 @@ export const HomeMenu = () => {
         <span className={s.tableList__itemNumber}>{i + 1}</span>
         <span className={s.tableList__itemName}>{m[0]}:</span>
         <span className={s.tableList__itemUrl}>{m[1]}</span>
-        <Button type="primary">Open page</Button>
+        <Button type="primary">
+          <NavLink to={`/${m[0]}`}>Open page</NavLink>
+        </Button>
       </div>
     )
   })
-
-  useEffect(() => {
-    dispatch(getMainContent())
-  }, [])
 
   return (
     <div className={s.tableList}>
