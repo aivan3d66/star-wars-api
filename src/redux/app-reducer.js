@@ -71,6 +71,30 @@ export const getMainPage = (mainData) => ({
   type: MAIN_PAGE,
   mainData: mainData
 })
+export const getPeoplePage = (payload) => ({
+  type: PEOPLE_PAGE,
+  payload: payload
+})
+export const getPlanetsPage = (payload) => ({
+  type: PLANETS_PAGE,
+  payload: payload
+})
+export const getFilmsPage = (payload) => ({
+  type: FILMS_PAGE,
+  payload: payload
+})
+export const getSpeciesPage = (payload) => ({
+  type: SPECIES_PAGE,
+  payload: payload
+})
+export const getVehiclesPage = (payload) => ({
+  type: VEHICLES_PAGE,
+  payload: payload
+})
+export const getStarshipsPage = (payload) => ({
+  type: STARSHIPS_PAGE,
+  payload: payload
+})
 
 export const getMainContent = () => async (dispatch) => {
   const response = await homeApi.getHomePage();
