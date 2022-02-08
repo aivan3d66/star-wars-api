@@ -26,6 +26,42 @@ export const appReducer = (state = initialState, action) => {
         contentMenu: action.mainData
       }
 
+    case PEOPLE_PAGE:
+      return {
+        ...state,
+        people: action.payload
+      }
+
+    case PLANETS_PAGE:
+      return {
+        ...state,
+        planets: action.payload
+      }
+
+    case FILMS_PAGE:
+      return {
+        ...state,
+        films: action.payload
+      }
+
+    case SPECIES_PAGE:
+      return {
+        ...state,
+        species: action.payload
+      }
+
+    case VEHICLES_PAGE:
+      return {
+        ...state,
+        vehicles: action.payload
+      }
+
+    case STARSHIPS_PAGE:
+      return {
+        ...state,
+        starships: action.payload
+      }
+
     default:
       return state
   }
