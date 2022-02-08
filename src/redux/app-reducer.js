@@ -100,3 +100,27 @@ export const getMainContent = () => async (dispatch) => {
   const response = await homeApi.getHomePage();
   dispatch(getMainPage(response.data));
 }
+export const getPeoplePageContent = () => async (dispatch) => {
+  const response = await homeApi.getPeoplePage();
+  dispatch(getPeoplePage(response.data));
+}
+export const getPlanetsPageContent = () => async (dispatch) => {
+  const response = await homeApi.getPlanetsPage();
+  dispatch(getPlanetsPage(response.data));
+}
+export const getFilmsPageContent = () => async (dispatch) => {
+  const response = await homeApi.getFilmsPage();
+  dispatch(getFilmsPage(response.data));
+}
+export const getSpeciesPageContent = () => async (dispatch) => {
+  const response = await homeApi.getSpeciesPage();
+  dispatch(getSpeciesPage(response.data));
+}
+export const getVehiclesPageContent = () => async (dispatch) => {
+  const response = await homeApi.getVehiclesPage();
+  dispatch(getVehiclesPage(response.data));
+}
+export const getStarshipsPageContent = () => async (dispatch) => {
+  const response = await homeApi.getStarshipsPage();
+  dispatch(getStarshipsPage(response.data));
+}
