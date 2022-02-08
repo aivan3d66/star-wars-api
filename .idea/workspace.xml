@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd App padding">
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Paginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Paginator.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/Preloader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/Spinner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Preloader/SpinnerPreloader.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add PeoplePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilmsPage/FilmsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeciesPage/SpeciesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarshipsPage/StarshipsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VehiclesPage/VehiclesPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,28 +97,7 @@
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
-      <workItem from="1644324081315" duration="9647000" />
-    </task>
-    <task id="LOCAL-00001" summary="add default project files">
-      <created>1644260325659</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1644260325659</updated>
-    </task>
-    <task id="LOCAL-00002" summary="delete unnecessary files">
-      <created>1644260471790</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1644260471790</updated>
-    </task>
-    <task id="LOCAL-00003" summary="delete reportWebVitals">
-      <created>1644260491138</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1644260491138</updated>
+      <workItem from="1644324081315" duration="10180000" />
     </task>
     <task id="LOCAL-00004" summary="add reset App component">
       <created>1644260523061</created>
@@ -430,7 +407,42 @@
       <option name="project" value="LOCAL" />
       <updated>1644340397429</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add btn">
+      <created>1644341992825</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1644341992825</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add Paginator file">
+      <created>1644342002363</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1644342002363</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add Paginator style">
+      <created>1644342009569</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1644342009570</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add Preloader directory">
+      <created>1644342118528</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1644342118528</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add PeoplePage">
+      <created>1644342130738</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1644342130738</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,11 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add uuid dependencies" />
-    <MESSAGE value="add upd of appPage name" />
-    <MESSAGE value="add selectAllState func" />
-    <MESSAGE value="add SuperButton component" />
-    <MESSAGE value="add Menu.module.css styles" />
     <MESSAGE value="add global App styles" />
     <MESSAGE value="delete SPB" />
     <MESSAGE value="add Home menu" />
@@ -474,6 +481,11 @@
     <MESSAGE value="add HashRouter component" />
     <MESSAGE value="add upd HomeMenu" />
     <MESSAGE value="add upd App padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd App padding" />
+    <MESSAGE value="add btn" />
+    <MESSAGE value="add Paginator file" />
+    <MESSAGE value="add Paginator style" />
+    <MESSAGE value="add Preloader directory" />
+    <MESSAGE value="add PeoplePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PeoplePage" />
   </component>
 </project>
