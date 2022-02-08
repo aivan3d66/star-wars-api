@@ -1,0 +1,21 @@
+.tableList {
+  border: 1px solid red;
+}
+
+.tableList__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 420px;
+  padding: 4px 10px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.tableList__itemNumber {
+  width: 20px;
+}
+
+.tableList__itemUrl {
+  margin: 0 auto 0 0;
+}

@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add HeaderNav and HomeMenu import">
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selectors.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add selectAllState func">
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SuperButton/SuperButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SuperButton/SuperButton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,13 +47,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS-tutorial" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\rjs\sw-api\star-wars-api\src\components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -81,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1644260000368</updated>
       <workItem from="1644260001471" duration="92000" />
-      <workItem from="1644260217701" duration="6953000" />
+      <workItem from="1644260217701" duration="7137000" />
+      <workItem from="1644324081315" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="add default project files">
       <created>1644260325659</created>
@@ -195,7 +201,63 @@
       <option name="project" value="LOCAL" />
       <updated>1644262941347</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Hall api's">
+      <created>1644267268490</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267268490</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add MAIN_PAGE action type, getMainPage AC, getMainContent thunk and logic to appReducer">
+      <created>1644267306585</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267306585</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add Home item">
+      <created>1644267318214</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267318214</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add Provider to index">
+      <created>1644267331991</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267331991</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add Menu component">
+      <created>1644267348956</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267348956</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add uuid dependencies">
+      <created>1644267361765</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267361765</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add upd of appPage name">
+      <created>1644267375553</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267375553</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add selectAllState func">
+      <created>1644267386945</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267386945</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +292,14 @@
     <MESSAGE value="add getHomePage api" />
     <MESSAGE value="add HeaderNav component" />
     <MESSAGE value="add HeaderNav and HomeMenu import" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HeaderNav and HomeMenu import" />
+    <MESSAGE value="add Hall api's" />
+    <MESSAGE value="add MAIN_PAGE action type, getMainPage AC, getMainContent thunk and logic to appReducer" />
+    <MESSAGE value="add Home item" />
+    <MESSAGE value="add Provider to index" />
+    <MESSAGE value="add Menu component" />
+    <MESSAGE value="add uuid dependencies" />
+    <MESSAGE value="add upd of appPage name" />
+    <MESSAGE value="add selectAllState func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add selectAllState func" />
   </component>
 </project>
