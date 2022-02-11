@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add import custom Breadcrumbs">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add Breadcrumbs separator">
+      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/peoplePage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
       <recent name="E:\rjs\sw-api\star-wars-api\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\rjs\sw-api\star-wars-api\src\components\PeoplePage\PeopleList" />
       <recent name="E:\rjs\sw-api\star-wars-api\src\components\commons" />
     </key>
   </component>
@@ -98,14 +104,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="8959000" />
-    </task>
-    <task id="LOCAL-00026" summary="add Menu.module.css styles">
-      <created>1644325414371</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325414371</updated>
+      <workItem from="1644571707307" duration="10980000" />
     </task>
     <task id="LOCAL-00027" summary="add global App styles">
       <created>1644325426269</created>
@@ -443,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644583252195</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add Breadcrumbs separator">
+      <created>1644583557504</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1644583557504</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Paginator style" />
     <MESSAGE value="add Preloader directory" />
     <MESSAGE value="add PeoplePage" />
     <MESSAGE value="add h2 and btn elements" />
@@ -487,6 +492,7 @@
     <MESSAGE value="add breadcrumb dependencies" />
     <MESSAGE value="add custom Breadcrumbs" />
     <MESSAGE value="add import custom Breadcrumbs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add import custom Breadcrumbs" />
+    <MESSAGE value="add Breadcrumbs separator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Breadcrumbs separator" />
   </component>
 </project>

@@ -3,7 +3,7 @@ import {useEffect} from "react";
 import {getPeoplePageContent, setCurrentPage} from "../../redux/app-reducer";
 import {Button} from "antd";
 import {NavLink} from "react-router-dom";
-import {PeopleList} from "./PeopleList";
+import {PeopleList} from "./PeopleList/PeopleList";
 import {Pagination} from "../commons/Pagination/Paginator";
 
 export const PeoplePage = () => {
@@ -29,12 +29,7 @@ export const PeoplePage = () => {
       <Button type="default" style={{margin: "0 0 20px 0"}}>
         <NavLink to={`/`}>Back</NavLink>
       </Button>
-      <div style={{
-        display: "flex",
-        flexWrap: "wrap",
-      }}>
-        <PeopleList/>
-      </div>
+      <PeopleList/>
       <Pagination
         currentPage={currentPageFromState}
         pageSize={pageSize}
