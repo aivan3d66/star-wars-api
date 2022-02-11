@@ -11,8 +11,8 @@ export const homeApi = {
   getHomePage() {
     return instance.get(BASE_URL);
   },
-  getPeoplePage() {
-    return instance.get(`people/`)
+  getPeoplePage(currentPage) {
+    return instance.get(`people/?page=${currentPage}`)
   },
   getPlanetsPage() {
     return instance.get(`planets/`)
