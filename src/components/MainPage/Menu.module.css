@@ -1,10 +1,11 @@
 .tableList {
-  min-width: 450px;
+  min-width: 375px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .tableList thead {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   background-color: rgba(211, 211, 211, 0.4);
 }
@@ -14,7 +15,7 @@
 }
 
 .tableList__item td {
-  padding: 10px;
+  padding: 10px 4px;
   margin: 0 auto;
 }
 

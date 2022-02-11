@@ -21,7 +21,6 @@ export const Filter = () => {
       }
       style={{
         width: "200px",
-        margin: "0 0 0 20px"
       }}
     >
       <Option value={FILTERS.CLIMATE}>Temperate climate</Option>

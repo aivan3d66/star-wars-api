@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="delete headerNavigation component">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add gh-pages dependencies">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -98,14 +104,8 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="21370000" />
-    </task>
-    <task id="LOCAL-00049" summary="add Paginator file">
-      <created>1644342002363</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1644342002363</updated>
+      <workItem from="1644571707307" duration="21572000" />
+      <workItem from="1644605057192" duration="1678000" />
     </task>
     <task id="LOCAL-00050" summary="add Paginator style">
       <created>1644342009569</created>
@@ -443,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644596580418</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="add gh-pages dependencies">
+      <created>1644596724844</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596724844</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add custom Breadcrumbs" />
     <MESSAGE value="add import custom Breadcrumbs" />
     <MESSAGE value="add Breadcrumbs separator" />
     <MESSAGE value="delete default App styles" />
@@ -487,6 +493,7 @@
     <MESSAGE value="add logo img" />
     <MESSAGE value="add logo import and logo styles" />
     <MESSAGE value="delete headerNavigation component" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete headerNavigation component" />
+    <MESSAGE value="add gh-pages dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gh-pages dependencies" />
   </component>
 </project>

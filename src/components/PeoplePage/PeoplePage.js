@@ -25,7 +25,12 @@ export const PeoplePage = React.memo(() => {
     }, [])
 
     return (
-      <div>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        minHeight: "79.5vh",
+      }}>
         <h2>People</h2>
         <Button type="default" style={{margin: "0 0 20px 0"}}>
           <NavLink to={`/`}>Back</NavLink>

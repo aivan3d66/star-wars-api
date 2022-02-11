@@ -30,12 +30,19 @@ export const PlanetsPage = React.memo(() => {
 
 
     return (
-      <div>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        minHeight: "79.5vh",
+      }}>
         <h2>Planets</h2>
-        <Button type="default" style={{margin: "0 0 20px 0"}}>
-          <NavLink to={`/`}>Back</NavLink>
-        </Button>
-        <Filter/>
+        <div>
+          <Button type="default" style={{margin: "0 20px 20px 0"}}>
+            <NavLink to={`/`}>Back</NavLink>
+          </Button>
+          <Filter/>
+        </div>
         <PlanetsList/>
         <Pagination
           currentPage={currentPlanetPageFromState}

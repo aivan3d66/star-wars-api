@@ -30,11 +30,11 @@ export const HomeMenu = () => {
   })
 
   return (
-    <div style={{height: "79.5vh"}}>
+    <div style={{minHeight: "79.5vh",}}>
       <table className={s.tableList}>
         <thead>
         <tr className={s.tableList__item}>
-          <td className={s.tableList__itemNumber}>Number</td>
+          <td className={s.tableList__itemNumber}>№</td>
           <td className={s.tableList__itemName}>Name</td>
           <td className={s.tableList__itemUrl}>API</td>
           <td></td>

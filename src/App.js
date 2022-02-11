@@ -20,7 +20,7 @@ const {Header, Content, Footer} = Layout;
 
 function App() {
   return (
-    <Layout style={{height: '100%'}}>
+    <Layout style={{height: '100%', minWidth: '500px'}}>
       <Header style={{position: 'fixed', zIndex: 1, width: '100%', height: '70px'}}>
         <div className="logo">
           <img src={siteLogo} alt="site logo"/>
