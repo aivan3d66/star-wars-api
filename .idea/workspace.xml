@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd People container margin">
-      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add import Pagination component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -104,91 +99,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="4078000" />
-    </task>
-    <task id="LOCAL-00008" summary="add axios dependencies">
-      <created>1644261549546</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1644261549546</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add base url and axios instance">
-      <created>1644261643348</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1644261643348</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add redux dependencies">
-      <created>1644261950847</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1644261950847</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add thunk dependencies">
-      <created>1644262240565</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262240565</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add app store">
-      <created>1644262248281</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262248281</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add appReducer">
-      <created>1644262256899</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262256899</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add getHomePage api">
-      <created>1644262266270</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262266270</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add HeaderNav component">
-      <created>1644262924231</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262924231</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add HeaderNav and HomeMenu import">
-      <created>1644262941347</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1644262941347</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add Hall api's">
-      <created>1644267268490</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267268490</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add MAIN_PAGE action type, getMainPage AC, getMainContent thunk and logic to appReducer">
-      <created>1644267306585</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267306585</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add Home item">
-      <created>1644267318214</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267318214</updated>
+      <workItem from="1644571707307" duration="7250000" />
     </task>
     <task id="LOCAL-00020" summary="add Provider to index">
       <created>1644267331991</created>
@@ -449,7 +360,91 @@
       <option name="project" value="LOCAL" />
       <updated>1644344542965</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add react icon dependencies">
+      <created>1644577675716</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577675717</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add upd of getPeoplePage request">
+      <created>1644577710698</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577710698</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add SET_CURRENT_PAGE action">
+      <created>1644577731223</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577731223</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add initial currentPage">
+      <created>1644577741247</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577741247</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add SET_CURRENT_PAGE action to appReducer">
+      <created>1644577756342</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577756342</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add setCurrentPage AC">
+      <created>1644577765005</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577765005</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add upd of getPeoplePageContent thunk">
+      <created>1644577775561</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577775561</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add currentPageFromState const">
+      <created>1644577801294</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577801294</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add upd of pagination component">
+      <created>1644577821123</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577821123</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add PeopleList component">
+      <created>1644577834416</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577834416</updated>
+    </task>
+    <task id="LOCAL-00067" summary="add import PeopleList component">
+      <created>1644577862044</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577862044</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add import Pagination component">
+      <created>1644577871372</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1644577871372</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,18 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add FilmsPage directory" />
-    <MESSAGE value="add PeoplePage directory" />
-    <MESSAGE value="add PlanetsPage directory" />
-    <MESSAGE value="add SpeciesPage directory" />
-    <MESSAGE value="add StarshipsPage directory" />
-    <MESSAGE value="add VehiclesPage directory" />
-    <MESSAGE value="add all routes and import of components" />
-    <MESSAGE value="add all action types" />
-    <MESSAGE value="add new initial state values" />
-    <MESSAGE value="add new actions to appReducer" />
-    <MESSAGE value="add new action creators" />
-    <MESSAGE value="add new Thunks" />
     <MESSAGE value="add NavLinks and handlers" />
     <MESSAGE value="add HashRouter component" />
     <MESSAGE value="add upd HomeMenu" />
@@ -493,6 +476,18 @@
     <MESSAGE value="add rebase Paginator" />
     <MESSAGE value="add Menu table styles" />
     <MESSAGE value="add upd People container margin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd People container margin" />
+    <MESSAGE value="add react icon dependencies" />
+    <MESSAGE value="add upd of getPeoplePage request" />
+    <MESSAGE value="add SET_CURRENT_PAGE action" />
+    <MESSAGE value="add initial currentPage" />
+    <MESSAGE value="add SET_CURRENT_PAGE action to appReducer" />
+    <MESSAGE value="add setCurrentPage AC" />
+    <MESSAGE value="add upd of getPeoplePageContent thunk" />
+    <MESSAGE value="add currentPageFromState const" />
+    <MESSAGE value="add upd of pagination component" />
+    <MESSAGE value="add PeopleList component" />
+    <MESSAGE value="add import PeopleList component" />
+    <MESSAGE value="add import Pagination component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add import Pagination component" />
   </component>
 </project>
