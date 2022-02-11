@@ -14,6 +14,7 @@ import {FilmsPage} from "./components/FilmsPage/FilmsPage";
 import {SpeciesPage} from "./components/SpeciesPage/SpeciesPage";
 import {VehiclesPage} from "./components/VehiclesPage/VehiclesPage";
 import {StarshipsPage} from "./components/StarshipsPage/StarshipsPage";
+import {HomeOutlined, UserOutlined} from '@ant-design/icons';
 
 const {Header, Content, Footer} = Layout;
 
@@ -25,8 +26,11 @@ function App() {
         <HeaderNav/>
       </Header>
       <Content className="site-layout" style={{padding: '0 50px', marginTop: 64}}>
-        <Breadcrumb style={{margin: '16px 0'}}>
-          <Breadcrumb.Item>Home</Breadcrumb.Item>
+        <Breadcrumb style={{margin: "16px 0"}}>
+          <Breadcrumb.Item href="/">
+            <HomeOutlined/>
+          </Breadcrumb.Item>
+          <Breadcrumb.Item>Application</Breadcrumb.Item>
         </Breadcrumb>
         <div className="site-layout-background" style={{padding: 0, minHeight: 380}}>
           <Routes>
