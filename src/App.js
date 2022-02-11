@@ -3,7 +3,6 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import {Layout} from 'antd';
 import {HomeMenu} from "./components/MainPage/Menu";
-import {HeaderNav} from "./components/Navigation/HeaderNav";
 import {
   Routes,
   Route
@@ -15,15 +14,17 @@ import {SpeciesPage} from "./components/SpeciesPage/SpeciesPage";
 import {VehiclesPage} from "./components/VehiclesPage/VehiclesPage";
 import {StarshipsPage} from "./components/StarshipsPage/StarshipsPage";
 import {Breadcrumbs} from "./components/commons/Breadcrumbs/Breadcrumbs";
+import siteLogo from './swlogo.png';
 
 const {Header, Content, Footer} = Layout;
 
 function App() {
   return (
     <Layout style={{height: '100%'}}>
-      <Header style={{position: 'fixed', zIndex: 1, width: '100%'}}>
-        <div className="logo"/>
-        <HeaderNav/>
+      <Header style={{position: 'fixed', zIndex: 1, width: '100%', height: '70px'}}>
+        <div className="logo">
+          <img src={siteLogo} alt="site logo"/>
+        </div>
       </Header>
       <Content className="site-layout" style={{height: '100%',padding: '0 50px', marginTop: 64}}>
         <Breadcrumbs style={{margin: "16px 0"}}/>

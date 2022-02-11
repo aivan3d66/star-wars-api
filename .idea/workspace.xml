@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add new width value of tableList">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add logo img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,21 +100,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="20670000" />
-    </task>
-    <task id="LOCAL-00045" summary="add HashRouter component">
-      <created>1644328572969</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328572969</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add upd HomeMenu">
-      <created>1644328594591</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328594591</updated>
+      <workItem from="1644571707307" duration="21222000" />
     </task>
     <task id="LOCAL-00047" summary="add upd App padding">
       <created>1644340397429</created>
@@ -443,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644595917880</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="add filtration logic">
+      <created>1644596029194</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596029194</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add logo img">
+      <created>1644596526078</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596526078</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +464,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Pagination constants" />
-    <MESSAGE value="add Spin component" />
     <MESSAGE value="add upd Breadcrumb" />
     <MESSAGE value="add breadcrumb dependencies" />
     <MESSAGE value="add custom Breadcrumbs" />
@@ -487,6 +487,8 @@
     <MESSAGE value="add change filter logic" />
     <MESSAGE value="add upd Filter component" />
     <MESSAGE value="add new width value of tableList" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new width value of tableList" />
+    <MESSAGE value="add filtration logic" />
+    <MESSAGE value="add logo img" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logo img" />
   </component>
 </project>
