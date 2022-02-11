@@ -12,12 +12,13 @@ import {NavLink} from "react-router-dom";
 export const HeaderNav = () => {
   const dispatch = useDispatch();
   const currentPageFromState = useSelector(state => state.appPage.currentPage)
+  const currentPlanetPageFromState = useSelector(state => state.appPage.currentPlanetPage);
 
   const onPeopleItemHandler = () => {
     return dispatch(getPeoplePageContent(currentPageFromState))
   }
   const onPlanetItemHandler = () => {
-    return dispatch(getPlanetsPageContent())
+    return dispatch(getPlanetsPageContent(currentPlanetPageFromState))
   }
   const onFilmsItemHandler = () => {
     return dispatch(getFilmsPageContent())
