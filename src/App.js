@@ -20,12 +20,12 @@ const {Header, Content, Footer} = Layout;
 
 function App() {
   return (
-    <Layout>
+    <Layout style={{height: '100%'}}>
       <Header style={{position: 'fixed', zIndex: 1, width: '100%'}}>
         <div className="logo"/>
         <HeaderNav/>
       </Header>
-      <Content className="site-layout" style={{padding: '0 50px', marginTop: 64}}>
+      <Content className="site-layout" style={{height: '100%',padding: '0 50px', marginTop: 64}}>
         <Breadcrumbs style={{margin: "16px 0"}}/>
         <div className="site-layout-background" style={{padding: 0, minHeight: 380}}>
           <Routes>
@@ -38,7 +38,6 @@ function App() {
             <Route path="/starships" element={<StarshipsPage/>}/>
           </Routes>
         </div>
-
       </Content>
       <Footer style={{textAlign: 'center'}}>Star Wars API</Footer>
     </Layout>
