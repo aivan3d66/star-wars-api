@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd getPlanetsPage api's">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add React.memo for PlanetsPage and pagination logic">
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,42 +98,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="14875000" />
-    </task>
-    <task id="LOCAL-00034" summary="add SpeciesPage directory">
-      <created>1644328283864</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328283864</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add StarshipsPage directory">
-      <created>1644328290138</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328290138</updated>
-    </task>
-    <task id="LOCAL-00036" summary="add VehiclesPage directory">
-      <created>1644328295905</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328295905</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add all routes and import of components">
-      <created>1644328422898</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328422898</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add all action types">
-      <created>1644328447933</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328447933</updated>
+      <workItem from="1644571707307" duration="15452000" />
     </task>
     <task id="LOCAL-00039" summary="add new initial state values">
       <created>1644328464770</created>
@@ -448,7 +408,42 @@
       <option name="project" value="LOCAL" />
       <updated>1644587079620</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="add SET_CURRENT_PLANETS_PAGE logic with action, AC and thunk">
+      <created>1644589518446</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589518446</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add currentPlanetPageFromState for getPlanetsPageContent">
+      <created>1644589532056</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589532056</updated>
+    </task>
+    <task id="LOCAL-00085" summary="add new margin value">
+      <created>1644589550191</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589550191</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add React.memo for PeoplePage">
+      <created>1644589572242</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589572243</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add React.memo for PlanetsPage and pagination logic">
+      <created>1644589591737</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589591737</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,11 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add upd of getPeoplePage request" />
-    <MESSAGE value="add SET_CURRENT_PAGE action" />
-    <MESSAGE value="add initial currentPage" />
-    <MESSAGE value="add SET_CURRENT_PAGE action to appReducer" />
-    <MESSAGE value="add setCurrentPage AC" />
     <MESSAGE value="add upd of getPeoplePageContent thunk" />
     <MESSAGE value="add currentPageFromState const" />
     <MESSAGE value="add upd of pagination component" />
@@ -492,6 +482,11 @@
     <MESSAGE value="delete PeoplePage unused wrapper" />
     <MESSAGE value="add PlanetsList component" />
     <MESSAGE value="add upd getPlanetsPage api's" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd getPlanetsPage api's" />
+    <MESSAGE value="add SET_CURRENT_PLANETS_PAGE logic with action, AC and thunk" />
+    <MESSAGE value="add currentPlanetPageFromState for getPlanetsPageContent" />
+    <MESSAGE value="add new margin value" />
+    <MESSAGE value="add React.memo for PeoplePage" />
+    <MESSAGE value="add React.memo for PlanetsPage and pagination logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add React.memo for PlanetsPage and pagination logic" />
   </component>
 </project>
