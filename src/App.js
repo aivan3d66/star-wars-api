@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import 'antd/dist/antd.css';
-import {Layout, Breadcrumb} from 'antd';
+import {Layout} from 'antd';
 import {HomeMenu} from "./components/MainPage/Menu";
 import {HeaderNav} from "./components/Navigation/HeaderNav";
 import {
@@ -14,7 +14,7 @@ import {FilmsPage} from "./components/FilmsPage/FilmsPage";
 import {SpeciesPage} from "./components/SpeciesPage/SpeciesPage";
 import {VehiclesPage} from "./components/VehiclesPage/VehiclesPage";
 import {StarshipsPage} from "./components/StarshipsPage/StarshipsPage";
-import {HomeOutlined, UserOutlined} from '@ant-design/icons';
+import {Breadcrumbs} from "./components/commons/Breadcrumbs/Breadcrumbs";
 
 const {Header, Content, Footer} = Layout;
 
@@ -26,12 +26,7 @@ function App() {
         <HeaderNav/>
       </Header>
       <Content className="site-layout" style={{padding: '0 50px', marginTop: 64}}>
-        <Breadcrumb style={{margin: "16px 0"}}>
-          <Breadcrumb.Item href="/">
-            <HomeOutlined/>
-          </Breadcrumb.Item>
-          <Breadcrumb.Item>Application</Breadcrumb.Item>
-        </Breadcrumb>
+        <Breadcrumbs style={{margin: "16px 0"}}/>
         <div className="site-layout-background" style={{padding: 0, minHeight: 380}}>
           <Routes>
             <Route path="/" element={<HomeMenu/>}/>
