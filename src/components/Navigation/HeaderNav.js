@@ -1,6 +1,6 @@
 import {Menu} from "antd";
 import React from "react";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {
   getFilmsPageContent,
   getPeoplePageContent,
@@ -11,9 +11,10 @@ import {NavLink} from "react-router-dom";
 
 export const HeaderNav = () => {
   const dispatch = useDispatch();
+  const currentPageFromState = useSelector(state => state.appPage.currentPage)
 
   const onPeopleItemHandler = () => {
-    return dispatch(getPeoplePageContent())
+    return dispatch(getPeoplePageContent(currentPageFromState))
   }
   const onPlanetItemHandler = () => {
     return dispatch(getPlanetsPageContent())
