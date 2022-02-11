@@ -112,8 +112,9 @@ export const getMainContent = () => async (dispatch) => {
   const response = await homeApi.getHomePage();
   dispatch(getMainPage(response.data));
 }
-export const getPeoplePageContent = () => async (dispatch) => {
-  const response = await homeApi.getPeoplePage();
+export const getPeoplePageContent = (currentPage) => async (dispatch) => {
+  dispatch(setCurrentPage(currentPage))
+  const response = await homeApi.getPeoplePage(currentPage);
   dispatch(getPeoplePage(response.data));
 }
 export const getPlanetsPageContent = () => async (dispatch) => {
