@@ -9,6 +9,13 @@ const STARSHIPS_PAGE = 'STARSHIPS_PAGE';
 const PLANETS_PAGE = 'PLANETS_PAGE';
 const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
 const SET_CURRENT_PLANETS_PAGE = 'SET_CURRENT_PLANETS_PAGE';
+const PLANET_FILTER = 'PLANET_FILTER';
+
+export const FILTERS = {
+  ALL: "all",
+  GRAVITY: "gravity",
+  CLIMATE: "climate",
+}
 
 const initialState = {
   contentMenu: '',
@@ -20,10 +27,8 @@ const initialState = {
   starships: {},
   currentPage: 1,
   currentPlanetPage: 1,
+  filter: FILTERS.ALL
 }
-
-console.log(`page: ${initialState.currentPage}`)
-console.log(`planet page: ${initialState.currentPlanetPage}`)
 
 export const appReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -81,6 +86,12 @@ export const appReducer = (state = initialState, action) => {
         currentPlanetPage: action.currentPlanetPage
       }
 
+    case PLANET_FILTER:
+      return {
+        ...state,
+        filter: action.filter
+      }
+
     default:
       return state
   }
@@ -121,6 +132,10 @@ export const setCurrentPage = (currentPage) => ({
 export const setCurrentPlanetsPage = (currentPlanetPage) => ({
   type: SET_CURRENT_PLANETS_PAGE,
   currentPlanetPage: currentPlanetPage
+})
+export const planetFilter = (filter) => ({
+  type: PLANET_FILTER,
+  filter: filter
 })
 
 export const getMainContent = () => async (dispatch) => {
