@@ -17,6 +17,7 @@ const initialState = {
   species: {},
   vehicles: {},
   starships: {},
+  currentPage: 1
 }
 
 export const appReducer = (state = initialState, action) => {
