@@ -7,6 +7,7 @@ const SPECIES_PAGE = 'SPECIES_PAGE';
 const VEHICLES_PAGE = 'VEHICLES_PAGE';
 const STARSHIPS_PAGE = 'STARSHIPS_PAGE';
 const PLANETS_PAGE = 'PLANETS_PAGE';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
 
 const initialState = {
   contentMenu: '',
