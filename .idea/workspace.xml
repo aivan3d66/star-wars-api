@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add import Pagination component">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd Breadcrumb">
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,28 +97,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="7250000" />
-    </task>
-    <task id="LOCAL-00020" summary="add Provider to index">
-      <created>1644267331991</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267331991</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add Menu component">
-      <created>1644267348956</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267348956</updated>
-    </task>
-    <task id="LOCAL-00022" summary="add uuid dependencies">
-      <created>1644267361765</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267361765</updated>
+      <workItem from="1644571707307" duration="7557000" />
     </task>
     <task id="LOCAL-00023" summary="add upd of appPage name">
       <created>1644267375553</created>
@@ -444,7 +421,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644577871372</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add Pagination constants">
+      <created>1644581976193</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1644581976193</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add Spin component">
+      <created>1644581993571</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1644581993571</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add upd Breadcrumb">
+      <created>1644582014932</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1644582014932</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,9 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add NavLinks and handlers" />
-    <MESSAGE value="add HashRouter component" />
-    <MESSAGE value="add upd HomeMenu" />
     <MESSAGE value="add upd App padding" />
     <MESSAGE value="add btn" />
     <MESSAGE value="add Paginator file" />
@@ -488,6 +483,9 @@
     <MESSAGE value="add PeopleList component" />
     <MESSAGE value="add import PeopleList component" />
     <MESSAGE value="add import Pagination component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add import Pagination component" />
+    <MESSAGE value="add Pagination constants" />
+    <MESSAGE value="add Spin component" />
+    <MESSAGE value="add upd Breadcrumb" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upd Breadcrumb" />
   </component>
 </project>
