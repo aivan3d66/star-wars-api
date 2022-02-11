@@ -64,6 +64,12 @@ export const appReducer = (state = initialState, action) => {
         starships: action.payload
       }
 
+    case SET_CURRENT_PAGE:
+      return {
+        ...state,
+        currentPage: action.currentPage
+      }
+
     default:
       return state
   }
