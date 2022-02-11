@@ -1,17 +1,18 @@
 import React, {useState} from "react";
-
-const s = require('./Paginator.module.css');
+import s from './Paginator.module.css';
+import {IoIosArrowBack} from 'react-icons/io';
+import {IoIosArrowForward} from 'react-icons/io';
 
 export const Pagination = (
   {
     currentPage,
     pageSize,
-    totalUsersCount,
+    totalItemsCount,
     onPageChanged,
-    portionSize = 10
+    portionSize
   }
 ) => {
-  let pagesCount = Math.ceil(totalUsersCount / pageSize);
+  let pagesCount = Math.ceil(totalItemsCount / pageSize);
   let pages = [];
   for (let i = 1; i <= pagesCount; i++) {
     pages.push(i);
@@ -25,7 +26,7 @@ export const Pagination = (
     <div className={s.usersList__pagination}>
       {portionNumber > 1 && <button className={s.usersList__paginationControl} onClick={() => {
         setPortionNumber(portionNumber - 1)
-      }}>+</button>}
+      }}><IoIosArrowBack/></button>}
 
       {pages
         .filter((p) => p >= leftPortionPageNumber && p <= rightPortionPageNumber)
@@ -41,7 +42,7 @@ export const Pagination = (
 
       {portionCount > portionNumber && <button className={s.usersList__paginationControl} onClick={() => {
         setPortionNumber(portionNumber + 1)
-      }}>+</button>}
+      }}><IoIosArrowForward/></button>}
     </div>
   )
 }
