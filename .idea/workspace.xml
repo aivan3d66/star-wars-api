@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd Breadcrumb">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add breadcrumb dependencies">
       <change afterPath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/Breadcrumbs/Breadcrumbs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -97,14 +99,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="7557000" />
-    </task>
-    <task id="LOCAL-00023" summary="add upd of appPage name">
-      <created>1644267375553</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1644267375553</updated>
+      <workItem from="1644571707307" duration="8623000" />
     </task>
     <task id="LOCAL-00024" summary="add selectAllState func">
       <created>1644267386945</created>
@@ -442,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644582014932</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="add breadcrumb dependencies">
+      <created>1644582561994</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1644582561994</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add upd App padding" />
     <MESSAGE value="add btn" />
     <MESSAGE value="add Paginator file" />
     <MESSAGE value="add Paginator style" />
@@ -486,6 +487,7 @@
     <MESSAGE value="add Pagination constants" />
     <MESSAGE value="add Spin component" />
     <MESSAGE value="add upd Breadcrumb" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd Breadcrumb" />
+    <MESSAGE value="add breadcrumb dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add breadcrumb dependencies" />
   </component>
 </project>
