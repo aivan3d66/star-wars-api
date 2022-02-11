@@ -8,6 +8,7 @@ const VEHICLES_PAGE = 'VEHICLES_PAGE';
 const STARSHIPS_PAGE = 'STARSHIPS_PAGE';
 const PLANETS_PAGE = 'PLANETS_PAGE';
 const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+const SET_CURRENT_PLANETS_PAGE = 'SET_CURRENT_PLANETS_PAGE';
 
 const initialState = {
   contentMenu: '',
@@ -17,8 +18,12 @@ const initialState = {
   species: {},
   vehicles: {},
   starships: {},
-  currentPage: 1
+  currentPage: 1,
+  currentPlanetPage: 1,
 }
+
+console.log(`page: ${initialState.currentPage}`)
+console.log(`planet page: ${initialState.currentPlanetPage}`)
 
 export const appReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -70,6 +75,12 @@ export const appReducer = (state = initialState, action) => {
         currentPage: action.currentPage
       }
 
+    case SET_CURRENT_PLANETS_PAGE:
+      return {
+        ...state,
+        currentPlanetPage: action.currentPlanetPage
+      }
+
     default:
       return state
   }
@@ -107,6 +118,10 @@ export const setCurrentPage = (currentPage) => ({
   type: SET_CURRENT_PAGE,
   currentPage: currentPage
 })
+export const setCurrentPlanetsPage = (currentPlanetPage) => ({
+  type: SET_CURRENT_PLANETS_PAGE,
+  currentPlanetPage: currentPlanetPage
+})
 
 export const getMainContent = () => async (dispatch) => {
   const response = await homeApi.getHomePage();
@@ -117,8 +132,9 @@ export const getPeoplePageContent = (currentPage) => async (dispatch) => {
   const response = await homeApi.getPeoplePage(currentPage);
   dispatch(getPeoplePage(response.data));
 }
-export const getPlanetsPageContent = () => async (dispatch) => {
-  const response = await homeApi.getPlanetsPage();
+export const getPlanetsPageContent = (currentPlanetPage) => async (dispatch) => {
+  const response = await homeApi.getPlanetsPage(currentPlanetPage);
+  dispatch(setCurrentPlanetsPage(currentPlanetPage))
   dispatch(getPlanetsPage(response.data));
 }
 export const getFilmsPageContent = () => async (dispatch) => {
