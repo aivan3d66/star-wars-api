@@ -4,8 +4,8 @@
   padding: 16px 0;
 }
 
-.breadcrumbItem {
-  margin: 0;
+.breadcrumbItem__img {
+  margin: 0 10px 0 0;
 }
 
 .breadcrumbItem__separator {

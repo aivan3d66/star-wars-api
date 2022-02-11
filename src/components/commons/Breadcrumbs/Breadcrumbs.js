@@ -18,16 +18,16 @@ export const Breadcrumbs = () => {
 
   return (
     <div className={s.breadcrumbsContainer}>
-      <ImHome/>
+      <ImHome className={s.breadcrumbItem__img}/>
       {breadcrumbs.map(({
                           match,
                           breadcrumb
                         }) => (
         <span key={match.pathname} className={s.breadcrumbItem}>
           <NavLink to={match.pathname}>
-            <span className={s.breadcrumbItem__separator}>/</span>
             {breadcrumb}
           </NavLink>
+          <span className={s.breadcrumbItem__separator}>/</span>
         </span>
       ))}
     </div>
