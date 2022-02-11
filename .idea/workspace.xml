@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add Filter directory">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add import Filter component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,21 +102,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="16143000" />
-    </task>
-    <task id="LOCAL-00040" summary="add new actions to appReducer">
-      <created>1644328477806</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328477806</updated>
-    </task>
-    <task id="LOCAL-00041" summary="add new action creators">
-      <created>1644328493917</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328493917</updated>
+      <workItem from="1644571707307" duration="20443000" />
     </task>
     <task id="LOCAL-00042" summary="add new Thunks">
       <created>1644328519265</created>
@@ -444,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644590319213</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="add default Filter component">
+      <created>1644590756279</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1644590756279</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add import Filter component">
+      <created>1644590765381</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1644590765381</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,8 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add currentPageFromState const" />
-    <MESSAGE value="add upd of pagination component" />
     <MESSAGE value="add PeopleList component" />
     <MESSAGE value="add import PeopleList component" />
     <MESSAGE value="add import Pagination component" />
@@ -488,6 +489,8 @@
     <MESSAGE value="add React.memo for PeoplePage" />
     <MESSAGE value="add React.memo for PlanetsPage and pagination logic" />
     <MESSAGE value="add Filter directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Filter directory" />
+    <MESSAGE value="add default Filter component" />
+    <MESSAGE value="add import Filter component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add import Filter component" />
   </component>
 </project>
