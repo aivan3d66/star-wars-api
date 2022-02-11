@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add React.memo for PlanetsPage and pagination logic">
-      <change afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add Filter directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS-tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../toDoList-TS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -98,14 +99,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="15452000" />
-    </task>
-    <task id="LOCAL-00039" summary="add new initial state values">
-      <created>1644328464770</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328464770</updated>
+      <workItem from="1644571707307" duration="16143000" />
     </task>
     <task id="LOCAL-00040" summary="add new actions to appReducer">
       <created>1644328477806</created>
@@ -443,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644589591737</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="add Filter directory">
+      <created>1644590319213</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1644590319213</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add upd of getPeoplePageContent thunk" />
     <MESSAGE value="add currentPageFromState const" />
     <MESSAGE value="add upd of pagination component" />
     <MESSAGE value="add PeopleList component" />
@@ -487,6 +487,7 @@
     <MESSAGE value="add new margin value" />
     <MESSAGE value="add React.memo for PeoplePage" />
     <MESSAGE value="add React.memo for PlanetsPage and pagination logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add React.memo for PlanetsPage and pagination logic" />
+    <MESSAGE value="add Filter directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Filter directory" />
   </component>
 </project>
