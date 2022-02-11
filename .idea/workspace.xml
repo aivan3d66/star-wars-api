@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add Breadcrumbs separator">
-      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PeoplePage/peoplePage.module.css" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add upd getPlanetsPage api's">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -104,56 +103,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="10980000" />
-    </task>
-    <task id="LOCAL-00027" summary="add global App styles">
-      <created>1644325426269</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325426269</updated>
-    </task>
-    <task id="LOCAL-00028" summary="delete SPB">
-      <created>1644325644176</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325644176</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add Home menu">
-      <created>1644325660381</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325660381</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add react-router-dom dependencies">
-      <created>1644325741161</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325741161</updated>
-    </task>
-    <task id="LOCAL-00031" summary="add FilmsPage directory">
-      <created>1644328261553</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328261553</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add PeoplePage directory">
-      <created>1644328271223</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328271223</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add PlanetsPage directory">
-      <created>1644328277567</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1644328277567</updated>
+      <workItem from="1644571707307" duration="14875000" />
     </task>
     <task id="LOCAL-00034" summary="add SpeciesPage directory">
       <created>1644328283864</created>
@@ -449,7 +399,56 @@
       <option name="project" value="LOCAL" />
       <updated>1644583557504</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="delete default App styles">
+      <created>1644585595631</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1644585595631</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add default height">
+      <created>1644585614984</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1644585614984</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add HomeMenu default height">
+      <created>1644585635916</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1644585635916</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add PeopleList styles">
+      <created>1644585656200</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1644585656200</updated>
+    </task>
+    <task id="LOCAL-00080" summary="delete PeoplePage unused wrapper">
+      <created>1644585683725</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1644585683725</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add PlanetsList component">
+      <created>1644587064210</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1644587064210</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add upd getPlanetsPage api's">
+      <created>1644587079620</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1644587079620</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,13 +467,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Preloader directory" />
-    <MESSAGE value="add PeoplePage" />
-    <MESSAGE value="add h2 and btn elements" />
-    <MESSAGE value="add rebase Paginator" />
-    <MESSAGE value="add Menu table styles" />
-    <MESSAGE value="add upd People container margin" />
-    <MESSAGE value="add react icon dependencies" />
     <MESSAGE value="add upd of getPeoplePage request" />
     <MESSAGE value="add SET_CURRENT_PAGE action" />
     <MESSAGE value="add initial currentPage" />
@@ -493,6 +485,13 @@
     <MESSAGE value="add custom Breadcrumbs" />
     <MESSAGE value="add import custom Breadcrumbs" />
     <MESSAGE value="add Breadcrumbs separator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Breadcrumbs separator" />
+    <MESSAGE value="delete default App styles" />
+    <MESSAGE value="add default height" />
+    <MESSAGE value="add HomeMenu default height" />
+    <MESSAGE value="add PeopleList styles" />
+    <MESSAGE value="delete PeoplePage unused wrapper" />
+    <MESSAGE value="add PlanetsList component" />
+    <MESSAGE value="add upd getPlanetsPage api's" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upd getPlanetsPage api's" />
   </component>
 </project>
