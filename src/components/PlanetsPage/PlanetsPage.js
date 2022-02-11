@@ -9,6 +9,7 @@ import {
 } from "../../redux/app-reducer";
 import {useDispatch, useSelector} from "react-redux";
 import {PlanetsList} from "./PlanetsList";
+import {Filter} from "../commons/Filter/Filter";
 
 export const PlanetsPage = React.memo(() => {
     const dispatch = useDispatch();
@@ -34,6 +35,7 @@ export const PlanetsPage = React.memo(() => {
         <Button type="default" style={{margin: "0 0 20px 0"}}>
           <NavLink to={`/`}>Back</NavLink>
         </Button>
+        <Filter/>
         <PlanetsList/>
         <Pagination
           currentPage={currentPlanetPageFromState}
