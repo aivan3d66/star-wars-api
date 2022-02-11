@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add gh-pages dependencies">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add fix of containers height">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeoplePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetsPage/PlanetsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Filter/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/Pagination/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +99,7 @@
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
       <workItem from="1644571707307" duration="21572000" />
-      <workItem from="1644605057192" duration="1678000" />
-    </task>
-    <task id="LOCAL-00050" summary="add Paginator style">
-      <created>1644342009569</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1644342009570</updated>
+      <workItem from="1644605057192" duration="2847000" />
     </task>
     <task id="LOCAL-00051" summary="add Preloader directory">
       <created>1644342118528</created>
@@ -450,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644596724844</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="add fix of containers height">
+      <created>1644606812397</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1644606812397</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add import custom Breadcrumbs" />
     <MESSAGE value="add Breadcrumbs separator" />
     <MESSAGE value="delete default App styles" />
     <MESSAGE value="add default height" />
@@ -494,6 +487,7 @@
     <MESSAGE value="add logo import and logo styles" />
     <MESSAGE value="delete headerNavigation component" />
     <MESSAGE value="add gh-pages dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gh-pages dependencies" />
+    <MESSAGE value="add fix of containers height" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fix of containers height" />
   </component>
 </project>
