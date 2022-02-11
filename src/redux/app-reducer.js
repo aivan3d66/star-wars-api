@@ -103,6 +103,10 @@ export const getStarshipsPage = (payload) => ({
   type: STARSHIPS_PAGE,
   payload: payload
 })
+export const setCurrentPage = (currentPage) => ({
+  type: SET_CURRENT_PAGE,
+  currentPage: currentPage
+})
 
 export const getMainContent = () => async (dispatch) => {
   const response = await homeApi.getHomePage();
