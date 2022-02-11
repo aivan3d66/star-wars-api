@@ -23,19 +23,7 @@ export const PeoplePage = () => {
         display: "flex",
         flexWrap: "wrap",
       }}>
-        {
-          !peoples
-            ? <Preloader/>
-            : peoples.map((p, i) => {
-              return (
-                <Card title={p.name} bordered={false} style={{ width: 240, margin: "0 20px 20px 0" }} key={i}>
-                  <p>gender: {p.gender}</p>
-                  <p>height: {p.height}</p>
-                  <p>mass: {p.mass}</p>
-                </Card>
-              )
-            })
-        }
+        <PeopleList/>
       </div>
     </div>
 
