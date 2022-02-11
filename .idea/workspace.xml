@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add logo img">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/HeaderNav.js" beforeDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="delete headerNavigation component">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../toDoList-TS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS-tutorial" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,21 +98,7 @@
       <workItem from="1644260001471" duration="92000" />
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
-      <workItem from="1644571707307" duration="21222000" />
-    </task>
-    <task id="LOCAL-00047" summary="add upd App padding">
-      <created>1644340397429</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1644340397429</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add btn">
-      <created>1644341992825</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1644341992825</updated>
+      <workItem from="1644571707307" duration="21370000" />
     </task>
     <task id="LOCAL-00049" summary="add Paginator file">
       <created>1644342002363</created>
@@ -445,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644596526078</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="add logo import and logo styles">
+      <created>1644596567936</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596567936</updated>
+    </task>
+    <task id="LOCAL-00097" summary="delete headerNavigation component">
+      <created>1644596580418</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1644596580418</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,8 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add upd Breadcrumb" />
-    <MESSAGE value="add breadcrumb dependencies" />
     <MESSAGE value="add custom Breadcrumbs" />
     <MESSAGE value="add import custom Breadcrumbs" />
     <MESSAGE value="add Breadcrumbs separator" />
@@ -489,6 +485,8 @@
     <MESSAGE value="add new width value of tableList" />
     <MESSAGE value="add filtration logic" />
     <MESSAGE value="add logo img" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logo img" />
+    <MESSAGE value="add logo import and logo styles" />
+    <MESSAGE value="delete headerNavigation component" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete headerNavigation component" />
   </component>
 </project>
