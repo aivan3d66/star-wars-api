@@ -25,6 +25,13 @@ export const PeoplePage = () => {
       }}>
         <PeopleList/>
       </div>
+      <Pagination
+        currentPage={currentPageFromState}
+        pageSize={pageSize}
+        portionSize={portionSize}
+        totalItemsCount={totalPeopleCount}
+        onPageChanged={onPageChanged}
+      />
     </div>
 
   )
