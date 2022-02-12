@@ -41,6 +41,8 @@ export const PeopleList = () => {
                 </p>
                 <p>height: {p.height}</p>
                 <p>mass: {p.mass}</p>
+                <p>created: {p.created}</p>
+                <p>edited: {p.edited}</p>
               </Card>
             )
           })
