@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add gender images">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add moment.js dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +101,7 @@
       <workItem from="1644571707307" duration="21572000" />
       <workItem from="1644605057192" duration="3450000" />
       <workItem from="1644608704972" duration="43000" />
-    </task>
-    <task id="LOCAL-00052" summary="add PeoplePage">
-      <created>1644342130738</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1644342130738</updated>
+      <workItem from="1644679082876" duration="463000" />
     </task>
     <task id="LOCAL-00053" summary="add h2 and btn elements">
       <created>1644342245701</created>
@@ -444,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644607943372</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="add moment.js dependencies">
+      <created>1644679155654</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1644679155654</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete default App styles" />
     <MESSAGE value="add default height" />
     <MESSAGE value="add HomeMenu default height" />
     <MESSAGE value="add PeopleList styles" />
@@ -488,6 +489,7 @@
     <MESSAGE value="add gh-pages dependencies" />
     <MESSAGE value="add fix of containers height" />
     <MESSAGE value="add gender images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gender images" />
+    <MESSAGE value="add moment.js dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add moment.js dependencies" />
   </component>
 </project>

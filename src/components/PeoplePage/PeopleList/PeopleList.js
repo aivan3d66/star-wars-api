@@ -17,7 +17,16 @@ export const PeopleList = () => {
           ? <div style={{display: "flex", width: "100%"}}><Spin size={'large'} style={{margin: "0 auto"}}/></div>
           : peoples.map((p, i) => {
             return (
-              <Card title={p.name} bordered={false} style={{width: 240, margin: '0 auto'}} key={i}>
+              <Card
+                title={p.name}
+                bordered={false}
+                style={{
+                  width: 240,
+                  margin: '0 auto',
+                  minHeight: " 250px"
+              }}
+                key={i}
+              >
                 <p>
                   <span style={{margin: "0 5px 0 0"}}>gender:</span>
                   {
