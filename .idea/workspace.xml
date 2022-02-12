@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add fix of containers height">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add gender images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +98,8 @@
       <workItem from="1644260217701" duration="7137000" />
       <workItem from="1644324081315" duration="13234000" />
       <workItem from="1644571707307" duration="21572000" />
-      <workItem from="1644605057192" duration="2847000" />
-    </task>
-    <task id="LOCAL-00051" summary="add Preloader directory">
-      <created>1644342118528</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1644342118528</updated>
+      <workItem from="1644605057192" duration="3450000" />
+      <workItem from="1644608704972" duration="43000" />
     </task>
     <task id="LOCAL-00052" summary="add PeoplePage">
       <created>1644342130738</created>
@@ -444,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644606812397</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="add gender images">
+      <created>1644607943372</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607943372</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Breadcrumbs separator" />
     <MESSAGE value="delete default App styles" />
     <MESSAGE value="add default height" />
     <MESSAGE value="add HomeMenu default height" />
@@ -488,6 +487,7 @@
     <MESSAGE value="delete headerNavigation component" />
     <MESSAGE value="add gh-pages dependencies" />
     <MESSAGE value="add fix of containers height" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fix of containers height" />
+    <MESSAGE value="add gender images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gender images" />
   </component>
 </project>
