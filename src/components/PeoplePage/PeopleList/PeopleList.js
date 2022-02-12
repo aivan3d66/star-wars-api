@@ -6,6 +6,7 @@ import {DiAndroid} from "react-icons/di";
 import {RiMenLine} from "react-icons/ri";
 import {RiWomenLine} from "react-icons/ri";
 import {RiAliensLine} from "react-icons/ri";
+import moment from 'moment';
 
 export const PeopleList = () => {
   const peoples = useSelector(state => state.appPage.people.results);
@@ -16,6 +17,8 @@ export const PeopleList = () => {
         !peoples
           ? <div style={{display: "flex", width: "100%"}}><Spin size={'large'} style={{margin: "0 auto"}}/></div>
           : peoples.map((p, i) => {
+            let getCreated = moment(p.created).format("dddd, MMMM Do YYYY, HH:mm:ss")
+            let getEdited = moment(p.edited).format("dddd, MMMM Do YYYY, HH:mm:ss")
             return (
               <Card
                 title={p.name}
@@ -41,8 +44,8 @@ export const PeopleList = () => {
                 </p>
                 <p>height: {p.height}</p>
                 <p>mass: {p.mass}</p>
-                <p>created: {p.created}</p>
-                <p>edited: {p.edited}</p>
+                <p>created: {getCreated}</p>
+                <p>edited: {getEdited}</p>
               </Card>
             )
           })
