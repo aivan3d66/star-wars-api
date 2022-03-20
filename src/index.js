@@ -7,12 +7,12 @@ import store from "./redux/store";
 import {HashRouter} from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter>
-    <Provider store={store}>
-      <React.StrictMode>
+  <React.StrictMode>
+    <HashRouter>
+      <Provider store={store}>
         <App/>
-      </React.StrictMode>
-    </Provider>
-  </HashRouter>,
+      </Provider>
+    </HashRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
