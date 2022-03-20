@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add moment js and format created and edited fields">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add MainContent directory">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,21 +104,7 @@
       <workItem from="1644780799926" duration="712000" />
       <workItem from="1645190823657" duration="4000" />
       <workItem from="1645372216616" duration="2561000" />
-      <workItem from="1647783712374" duration="100000" />
-    </task>
-    <task id="LOCAL-00056" summary="add upd People container margin">
-      <created>1644344542965</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1644344542965</updated>
-    </task>
-    <task id="LOCAL-00057" summary="add react icon dependencies">
-      <created>1644577675716</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1644577675717</updated>
+      <workItem from="1647783712374" duration="243000" />
     </task>
     <task id="LOCAL-00058" summary="add upd of getPeoplePage request">
       <created>1644577710698</created>
@@ -450,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644681017667</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="add change of React.Strict mode position">
+      <created>1647783920241</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1647783920241</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add MainContent directory">
+      <created>1647783943563</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1647783943563</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,8 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete PeoplePage unused wrapper" />
-    <MESSAGE value="add PlanetsList component" />
     <MESSAGE value="add upd getPlanetsPage api's" />
     <MESSAGE value="add SET_CURRENT_PLANETS_PAGE logic with action, AC and thunk" />
     <MESSAGE value="add currentPlanetPageFromState for getPlanetsPageContent" />
@@ -494,6 +491,8 @@
     <MESSAGE value="add new Card styles" />
     <MESSAGE value="add created and edited Card values" />
     <MESSAGE value="add moment js and format created and edited fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="add moment js and format created and edited fields" />
+    <MESSAGE value="add change of React.Strict mode position" />
+    <MESSAGE value="add MainContent directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MainContent directory" />
   </component>
 </project>
