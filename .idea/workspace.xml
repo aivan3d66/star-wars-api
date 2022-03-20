@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add created and edited Card values">
+    <list default="true" id="b9e10343-a728-4646-92a9-8874d145e4e3" name="Changes" comment="add moment js and format created and edited fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PeoplePage/PeopleList/PeopleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +101,11 @@
       <workItem from="1644571707307" duration="21572000" />
       <workItem from="1644605057192" duration="3450000" />
       <workItem from="1644608704972" duration="43000" />
-      <workItem from="1644679082876" duration="1889000" />
-    </task>
-    <task id="LOCAL-00055" summary="add Menu table styles">
-      <created>1644344518740</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1644344518740</updated>
+      <workItem from="1644679082876" duration="1968000" />
+      <workItem from="1644780799926" duration="712000" />
+      <workItem from="1645190823657" duration="4000" />
+      <workItem from="1645372216616" duration="2561000" />
+      <workItem from="1647783712374" duration="100000" />
     </task>
     <task id="LOCAL-00056" summary="add upd People container margin">
       <created>1644344542965</created>
@@ -446,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644679594369</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="add moment js and format created and edited fields">
+      <created>1644681017667</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1644681017667</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add PeopleList styles" />
     <MESSAGE value="delete PeoplePage unused wrapper" />
     <MESSAGE value="add PlanetsList component" />
     <MESSAGE value="add upd getPlanetsPage api's" />
@@ -490,6 +493,7 @@
     <MESSAGE value="add moment.js dependencies" />
     <MESSAGE value="add new Card styles" />
     <MESSAGE value="add created and edited Card values" />
-    <option name="LAST_COMMIT_MESSAGE" value="add created and edited Card values" />
+    <MESSAGE value="add moment js and format created and edited fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="add moment js and format created and edited fields" />
   </component>
 </project>
